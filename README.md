@@ -63,19 +63,7 @@ Deployment & Configuration
 *   Backend connects to frontend via CLIENT\_URL=http://localhost:3000.
     
 *   Local MySQL or SQLite database for development.
-    
-*   Avatar image feature configured via AWS S3, CloudFront, and Secrets Manager.
-    
-
-**Production Setup:**
-
-*   Frontend deployed on static hosting (e.g., S3) with CDN.
-    
-*   Backend deployed via Docker container on ECS or similar server environment.
-    
-*   Backend connected to MySQL RDS instance.
-    
-*   Avatar images served from AWS S3 with signed URLs.
+  
     
 
 Next Steps
